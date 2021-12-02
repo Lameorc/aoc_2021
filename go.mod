@@ -1,3 +1,3 @@
-module gitlab.com/Newmark/aoc_2021
+module github.com/Lameorc/aoc_2021
 
 go 1.16

@@ -6,8 +6,8 @@ import (
 	"log"
 	"strings"
 
-	"gitlab.com/Newmark/aoc_2021/day1"
-	"gitlab.com/Newmark/aoc_2021/day2"
+	"github.com/Lameorc/aoc_2021/day1"
+	"github.com/Lameorc/aoc_2021/day2"
 )
 
 func readInput(day string) []string {
