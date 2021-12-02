@@ -7,6 +7,7 @@ import (
 	"strings"
 
 	"gitlab.com/Newmark/aoc_2021/day1"
+	"gitlab.com/Newmark/aoc_2021/day2"
 )
 
 func readInput(day string) []string {
@@ -27,5 +28,8 @@ func main() {
 	log.SetFlags(log.LstdFlags | log.Lshortfile)
 	d1 := day1.Day{}
 	d1.Solve(readInput("1"))
+
+	d2 := day2.Day2{}
+	d2.Solve(readInput("2"))
 
 }
