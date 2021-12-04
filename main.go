@@ -8,6 +8,7 @@ import (
 
 	"github.com/Lameorc/aoc_2021/day1"
 	"github.com/Lameorc/aoc_2021/day2"
+	"github.com/Lameorc/aoc_2021/day3"
 )
 
 func readInput(day string) []string {
@@ -31,5 +32,8 @@ func main() {
 
 	d2 := day2.Day2{}
 	d2.Solve(readInput("2"))
+
+	d3 := day3.Day{}
+	d3.Solve(readInput("3"))
 
 }
